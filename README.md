@@ -17,6 +17,7 @@ Dự án phân tích dữ liệu về sức khỏe giấc ngủ và lối sống
 - `Sleep_health_and_lifestyle_dataset.csv`: Dataset gốc
 - `processed_test.csv`, `results.csv`: Dữ liệu xử lý và kết quả
 - `rf_model.pkl`, `label_encoder.pkl`, `onehot_encoder.pkl`: Mô hình và encoders đã huấn luyện
+- `requirements.txt`: File liệt kê các thư viện Python và phiên bản cần thiết để chạy dự án.
 
 ## Yêu cầu hệ thống
 
@@ -28,7 +29,7 @@ Dự án phân tích dữ liệu về sức khỏe giấc ngủ và lối sống
 
 1. Cài đặt các thư viện cần thiết:
    ```
-   pip install flask pandas numpy scikit-learn matplotlib seaborn joblib
+   pip install -r requirements.txt
    ```
 
 2. Chạy ứng dụng web:
